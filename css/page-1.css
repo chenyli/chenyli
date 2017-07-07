@@ -101,8 +101,8 @@
 .item-1 .motto {
     position: absolute;
     bottom: 50%;
-    font-size: 40px;
-    line-height: 1;
+    font-size: 30px;
+    line-height: 1.5;
     color: #42B7F0;
 }
 
@@ -177,4 +177,3 @@
     -o-animation: zhishi1 0.4s linear 0.4s infinite alternate;
     -ms-animation: zhishi1 0.4s linear 0.4s infinite alternate;
 }
-
