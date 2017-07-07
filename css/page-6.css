@@ -1,7 +1,6 @@
-
 .item-6 h1 {
     font-size: 48px;
-    margin-top: -50px;
+    margin-top: -17px;
     line-height: 1;
     font-weight: 700;
     color: #42B8F1;
@@ -14,7 +13,6 @@
     color: #fff;
     font-weight: 700;
 }
-
 
 .item-6 .word:nth-child(1) {
     opacity: 0;
@@ -37,29 +35,20 @@
     -webkit-animation-delay: 1s;
 }
 
-.item-6 .top{
+.item-6 .top {
     background: rgba(255, 255, 255, 0.6);
     width: 100%;
-    height: 50%;
+    height: 20%;
     position: absolute;
     top: 0;
     z-index: 10;
 }
 
-.item-6 .foot{
+.item-6 .foot {
     background: rgba(255, 255, 255, 0.6);
     width: 100%;
-    height: 50%;
+    height: 20%;
     position: absolute;
     bottom: 0;
     z-index: 10;
 }
-
-
-
-
-
-
-
-
-

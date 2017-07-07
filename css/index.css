@@ -7,7 +7,6 @@
 @import "page-6.css";
 @import "background.css";
 @import "movement.css";
-
 .resume-hide {
     display: none;
 }
@@ -22,7 +21,9 @@
     color: #fff;
 }
 
+
 /**********************导航条**********************************/
+
 .resume {
     position: fixed;
     right: 0;
@@ -36,19 +37,18 @@
     transition: 1s all ease;
 }
 
-
 .navbar.blue {
-  background: rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.1);
 }
 
 .navbar.black {
-   
-background: rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.1);
 }
 
 .resume .navbar-brand a {
     font-size: 18px;
 }
+
 .resume .navbar-brand span {
     margin-left: 50px;
     /*margin-top: -22px;*/
@@ -62,20 +62,19 @@ background: rgba(0, 0, 0, 0.1);
     width: 50px;
     height: 50px;
     border-radius: 50%;
-
 }
 
 .resume .navbar-right li a,
 .resume .navbar-right li a:visited {
     color: #ffffff;
-!important;
-    font-weight: 500;
+    !important;
+    font-weight: 700;
     text-decoration: none;
 }
 
 .resume .navbar-right li a:hover {
     color: #ffffff;
-!important;
+    !important;
     text-decoration: none;
 }
 
@@ -99,7 +98,9 @@ background: rgba(0, 0, 0, 0.1);
     background-color: #6F58B4;
 }
 
+
 /********************导航条End***************************************/
+
 
 /********************右侧导航栏*************************************/
 
@@ -129,8 +130,5 @@ background: rgba(0, 0, 0, 0.1);
     display: none;
 }
 
+
 /****************************右侧导航栏End******************************/
-
-
-
-

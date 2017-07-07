@@ -37,7 +37,6 @@
 .item-3 .sm-img img {
     width: 100%;
     display: block;
-
 }
 
 .item-3 .img-3 {
@@ -132,7 +131,7 @@
 .item-3 .skill-introduce {
     text-align: left;
     position: absolute;
-    top: 20%;
+    top: 10%;
     left: 5%;
     color: #42B8F1;
 }
@@ -155,7 +154,8 @@
 }
 
 .skill-introduce .media {
-    margin-bottom: 20px;;
+    margin-bottom: 20px;
+    ;
 }
 
 .skill-introduce .media:nth-child(1) {
