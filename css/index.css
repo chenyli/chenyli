@@ -51,7 +51,7 @@ background: rgba(0, 0, 0, 0.1);
 }
 .resume .navbar-brand span {
     margin-left: 50px;
-    margin-top: -22px;
+    /*margin-top: -22px;*/
     display: block;
     font-weight: 700;
     color: #8BC34B;
