@@ -22,7 +22,7 @@
 }
 
 
-/**********************导航条**********************************/
+/**********************导航开始**********************************/
 
 .resume {
     position: fixed;
@@ -33,76 +33,82 @@
 }
 
 .navbar {
-    background: rgba(0, 0, 0, 0.2);
+    background-color: #fff;
     transition: 1s all ease;
 }
 
-.navbar.blue {
-    background: rgba(0, 0, 0, 0.4);
-}
-
 .navbar.black {
-    background: rgba(0, 0, 0, 0.4);
+    background: #fff;
 }
 
-.resume .navbar-brand a {
-    font-size: 18px;
-}
-
-.resume .navbar-brand span {
-    margin-left: 50px;
-    /*margin-top: -22px;*/
-    display: block;
+.resume .login {
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
     font-weight: 700;
-    color: #8BC34B;
+    font-family: "Inconsolata", Arial, sans-serif;
 }
 
-.resume .navbar-brand img {
-    margin-top: -15px;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+.resume .navbar-brand,
+.resume .navbar-brand:visited,
+.resume .navbar-brand:hover {
+    color: #DD356E;
 }
 
-.resume .navbar-right li a,
-.resume .navbar-right li a:visited {
-    color: #ffffff;
-    !important;
-    font-weight: 500;
-    text-decoration: none;
+#.navbar-default .navbar-nav a {
+    padding: 5px 10px;
+    color: #000;
 }
 
-.resume .navbar-right li a:hover {
-    color: #ffffff;
-    !important;
-    text-decoration: none;
+.navbar-default .navbar-nav ul {
+    padding: 0;
+    margin: 5px 0 0 0;
 }
 
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:visited,
-.navbar-default .navbar-nav > .active > a:focus {
-    color: #ffffff;
-    background-color: #42B8F1;
-    text-decoration: none;
+.navbar-default .navbar-nav li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: inline;
 }
 
-.navbar-default .navbar-toggle {
-    background-color: #6F58B4;
+.navbar-default .navbar-nav li a {
+    font-size: 14px;
+    padding: 15px 15px;
+    color: rgba(0, 0, 0, 0.7);
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
 }
 
-.navbar-default .navbar-toggle:focus {
-    background-color: #6F58B4;
+.navbar-default .navbar-nav .active a:hover,
+.navbar-default .navbar-nav .active a:focus,
+.navbar-default .navbar-nav .active a:active {
+    color: #000;
+    background-color: #fff;
 }
 
-.navbar-default .navbar-toggle:hover {
-    background-color: #6F58B4;
+.navbar-default .navbar-nav li.active > a {
+    color: #000 !important;
+    font-weight: 400;
+    background-color: #fff!important;
+    position: relative;
+}
+
+.navbar-default .navbar-nav li.active > a:after {
+    position: absolute;
+    bottom: 8px;
+    left: 0;
+    right: 0;
+    content: '';
+    width: 30px;
+    height: 2px;
+    background: #DD356E;
+    margin: 0 auto;
 }
 
 
-/********************导航条End***************************************/
-
-
-/********************右侧导航栏*************************************/
+/********************右侧导航栏开始*************************************/
 
 #fp-nav {
     top: 80%;
@@ -119,11 +125,11 @@
 
 #fp-nav ul li a {
     display: block;
-    color: #6f58b4;
-    background-color: #6F58B4;
+    color: #8F9DA4;
     width: 21px;
     height: 21px;
     background: url(../images/dot.png) 5px 5px no-repeat;
+    /*right: 0;*/
 }
 
 #fp-nav span {
@@ -131,4 +137,4 @@
 }
 
 
-/****************************右侧导航栏End******************************/
+/****************************导航结束******************************/

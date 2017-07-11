@@ -1,18 +1,18 @@
-.item-3 {
-    background-color: #fff;
-}
-
 .item-3 .container {
     height: 100%;
     display: none;
     position: relative;
 }
 
+.item-3 {
+    background-color: #eee;
+}
+
 .item-3 .bg-img {
     width: 541px;
     position: absolute;
-    right: 0%;
-    bottom: 0;
+    right: -1%;
+    bottom: -25px;
     opacity: .5;
     -webkit-animation: bg-img .5s ease;
     animation: bg-img .5s ease;
@@ -27,8 +27,8 @@
     opacity: 0;
     width: 309px;
     position: absolute;
-    right: 1%;
-    bottom: 20%;
+    right: 0.5%;
+    bottom: 16%;
     -webkit-animation: sm-img 1s ease forwards;
     animation: sm-img 1s ease forwards;
     -webkit-animation-delay: .5s;
@@ -131,8 +131,8 @@
 .item-3 .skill-introduce {
     text-align: left;
     position: absolute;
-    top: 10%;
-    left: 5%;
+    top: 15%;
+    left: 4%;
     color: #42B8F1;
 }
 
@@ -147,6 +147,12 @@
     width: 100%;
 }
 
+.skill-introduce .media-body .media-heading {
+    font-size: 16px;
+    color: #42B8F1;
+    font-family: microsoft yahei, sans-serif;
+}
+
 .skill-introduce .media-body p {
     font-size: 14px;
     color: #000;
@@ -155,7 +161,6 @@
 
 .skill-introduce .media {
     margin-bottom: 20px;
-    ;
 }
 
 .skill-introduce .media:nth-child(1) {

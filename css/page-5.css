@@ -1,7 +1,6 @@
 .fp-controlArrow.fp-prev {
     -webkit-animation: shake 2s ease;
     animation: shake 2s ease;
-
 }
 
 .fp-controlArrow.fp-next {
@@ -18,80 +17,78 @@
     font-size: 12px;
 }
 
-.portfolio-items {
+.portfolio {
+    width: 100%;
     transition: all 1s linear;
 }
 
 .portfolio-item {
-    text-align: center;
-    -webkit-transition: all 0.5s ease-out;
-    transition: all 0.5s ease-out;
+    padding: 10px;
+    transition: all 0.3s linear;
+    position: relative;
 }
 
 .portfolio-item:hover {
-    margin-bottom: 30px;
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
+    padding: 0;
+    transition: all 0.3s linear;
 }
 
 .portfolio-item .hover-bg {
-    height: 260px;
-    overflow: hidden;
-    position: relative;
-    transition: all 1s linear;
-}
-
-.hover-bg .hover-text {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    text-align: center;
-    color: #ffffff;
-    background: rgba(0, 0, 0, 0.66);
-    height: 0;
     width: 100%;
-    transition: all 1s;
+    height: 0;
+    padding-bottom: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
 }
 
-.hover-bg .hover-text > h4 {
-    padding-top: 15px;
-    opacity: 0;
-    -webkit-transform: translateY(100%);
-    transform: translateY(100%);
-    transition: all 0.5s linear;
+.portfolio-item .hover-bg img {
+    width: 100%;
+    transition: all 0.3s ease;
 }
 
-.hover-bg .hover-text > h4 small {
+.portfolio-item .hover-text {
+    position: absolute;
+    display: none;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    left: 0;
+    top: 40%;
+}
+
+.portfolio-item .hover-text h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.portfolio-item .hover-text p {
+    color: #fff;
     font-size: 14px;
+    text-align: center;
+    margin: 10px 0;
+    padding: 0 1em;
 }
 
-.hover-bg:hover .hover-text > h4 {
-    opacity: 1;
-    -webkit-backface-visibility: hidden;
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
+.portfolio-item .hover-text img {
+    width: 30px;
+    height: 30px;
 }
 
-.hover-bg .hover-text > i {
-    opacity: 0;
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-    transition: all 0.5s linear;
+.portfolio-item:hover .hover-text {
+    display: block;
+    padding: 0 2em;
 }
 
-.hover-bg:hover .hover-text > i {
-    opacity: 1;
-    -webkit-backface-visibility: hidden;
-    -webkit-transform: translateY(100%);
-    transform: translateY(100%);
+.portfolio-item:hover .hover-bg img {
+    -webkit-filter: brightness(0.3);
+    filter: brightness(0.3);
 }
 
-.hover-bg:hover .hover-text {
-    opacity: 1;
-    height: 40%;
-}
 
 /****************************************************第二屏********************************************/
+
 .rotator {
     background-color: #222;
     width: 800px;

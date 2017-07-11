@@ -1,7 +1,7 @@
 /**********************基本信息页面**********************************/
 
 .item-2 .row {
-    margin-top: 30px;
+    margin-top: 80px;
 }
 
 .item-2 .container {
@@ -43,10 +43,45 @@
     animation: zoomInDown 2s ease forwards;
 }
 
+.design-arrow {
+    -webkit-animation: zoomInDown 2s ease forwards;
+    animation: zoomInDown 2s ease forwards;
+    width: 1px;
+    height: 50px;
+    background: #999;
+    position: relative;
+    margin: 10px auto 0;
+}
+
+.design-arrow.inline-arrow {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.design-arrow:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    border: 2px solid #DC639B;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    top: 100%;
+    left: -5px;
+    -webkit-animation: zoomInDown 2s ease forwards;
+    animation: zoomInDown 2s ease forwards;
+}
+
 .item-2 .icon-infomation.zoomOutUp {
     opacity: 1;
     -webkit-animation: slideOutUp .5s linear;
     animation: slideOutUp .5s linear;
 }
+
 
 /**********************基本信息页面end********************************/

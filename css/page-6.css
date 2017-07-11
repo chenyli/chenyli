@@ -3,7 +3,7 @@
     margin-top: -17px;
     line-height: 1;
     font-weight: 700;
-    color: #42B8F1;
+    color: #90CB0F;
 }
 
 .item-6 .word {
@@ -33,6 +33,16 @@
     animation: bounceInLeft 2s linear forwards;
     -webkit-animation: bounceInLeft 2s linear forwards;
     -webkit-animation-delay: 1s;
+}
+
+.item-6 .tel-me {
+    margin-top: 6%;
+    margin-bottom: -6%;
+    font-size: 14px;
+}
+
+.item-6 .tel-me span {
+    margin-right: 20px;
 }
 
 .item-6 .top {
