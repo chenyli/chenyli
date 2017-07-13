@@ -102,7 +102,7 @@ $(function() {
                 $('.sky').hide();
             } else {
                 $('.item-6 .top').animate({ 'height': '30%' }, 600);
-                $('.item-6 .foot').animate({ 'height': '20%' }, 400);
+                $('.item-6 .foot').animate({ 'height': '30%' }, 400);
             }
 
 
