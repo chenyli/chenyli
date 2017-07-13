@@ -32,12 +32,12 @@ $(function() {
 
 
     $('#resume').fullpage({
-        sectionsColor: ['transparent', 'transparent', '#e4e4e4', 'rgba(255, 255, 255, .0)', 'transparent', 'transparent', ' #EAEAEA'],
+        sectionsColor: ['transparent', 'transparent', '#e4e4e4', 'transparent', 'transparent', 'transparent'],
 
         scrollingSpeed: 700,
         // 是否首尾相接
         // continuousVertical: true,
-        normalScrollElementTouchThreshold: 6,
+        normalScrollElementTouchThreshold: 5,
         // 导航条显示
         navigation: true,
 
@@ -49,7 +49,7 @@ $(function() {
         // 左右滑块颜色
         controlArrowColor: '#16BA9D',
         // 导航栏设置
-        anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6', 'page7'],
+        anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6'],
         menu: '#menu',
         easing: 'easeInOut',
 
@@ -59,7 +59,7 @@ $(function() {
             // page4 透明背景
             // $('item-4').css('background', 'rgba(255, 255, 255, .1)');
             //侧边导航事件
-            var Tooltips = ['个人简历', '基本资料', '专业技能', '工作经历', '项目作品', '自我评价', '联系我'];
+            var Tooltips = ['个人简历', '基本资料', '专业技能', '工作经历', '项目作品', '自我评价'];
             $("#fp-nav ul li").each(function(index) {
                 this.dataset['toggle'] = 'tooltip';
                 this.dataset['placement'] = 'left';
@@ -143,10 +143,6 @@ $(function() {
                     {
                         break;
                     }
-                case 7:
-                    {
-
-                    }
             }
         },
 
@@ -185,8 +181,6 @@ $(function() {
                         $('.item-6 .foot').animate({ 'height': '20%' }, 400);
                     }, 500)
                     break;
-                case 'page7':
-                    $('.navbar').addClass('black');
 
             }
         },
