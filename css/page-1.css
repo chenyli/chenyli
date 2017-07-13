@@ -7,20 +7,22 @@
 }
 
 .item-1 .word .text {
+    width: 500px;
     position: absolute;
     bottom: 28%;
-    margin-left: 22%;
+    left: 50%;
+    margin-left: -250px;
 }
 
 .word .text p {
-    font-size: 40px;
+    font-size: 28px;
     color: #292E31;
     font-family: cursive, 'Lato';
     text-align: center;
 }
 
-.head {
-    position: relative;
+.item-1 .word .head {
+    position: absolute;
     top: 12%;
     left: 50%;
     margin-left: -90px;
@@ -28,7 +30,7 @@
     height: 180px;
 }
 
-.word .tu {
+.word .head .tu {
     margin: 0 auto;
     width: 200px;
     height: 200px;
