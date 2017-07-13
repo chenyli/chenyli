@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
     <meta name="description" content="前端工程师，喜欢研究，喜欢学习，欢迎联系" />
     <meta name="author" content="陈丽 chenli age:23 " />
-    <meta name="keywords" content="eb前端个人简历,web前端,陈丽简历,cheyli,前端个人博客,前端工程师" />
+    <meta name="keywords" content="web前端工程师,前端工程师个人简历,陈丽简历,前端个人博客" />
     <meta name="contact" content="tel 13626765996 e-mail:cheyli@sina.cn" />
     <link rel="shortcut icon" href="./images/icon.ico" />
     <!--lib css-->
@@ -17,6 +17,15 @@
     <link rel="stylesheet" href="css/index.css" />
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?b9e9084e57b0d732a2348d13630a7cbf";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
 </head>
 
 <body>
@@ -51,6 +60,9 @@
                     <li data-menuanchor="page6">
                         <a href="#page6">自我评价</a>
                     </li>
+                    <li data-menuanchor="page7">
+                        <a href="#page7">联系我</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -66,15 +78,19 @@
     <div id="resume">
         <div class="section item-1">
             <div class="row word">
-                <span class="head">
-                <img src="./images/abme.jpg" id="item-img" width="169" height="169"/>
-                </span>
-                <p>
-                    Hello, I'm Chirs Chen
-                </p>
-                <p>Welcome to my nest</p>
+                <div class="head">
+                    <img src="./images/abme.jpg" id="item-img" width="180" height="180" />
+                    <div class="tu">
+                    </div>
+                </div>
+                <div class="text">
+                    <p>Welcome to my front end world</p>
+                    <p class="hidden-xs">
+                        我叫陈丽，一名热爱前端的前端工程师！
+                    </p>
+                </div>
                 <div class="btnMe">
-                    <a class="abMe" href="#page2">About Me</a>
+                    <a class="abMe" href="#page2">关于我</a>
                     <a class="suffer" href="#page5">项目作品</a>
                 </div>
             </div>
@@ -82,14 +98,13 @@
         <div class="section item-2">
             <div class="container">
                 <h class='hidden-xs hidden-sm page2-title'>基本资料</h>
-                <div class="design-arrow"></div>
                 <div class="row">
                     <div class=" icon-infomation col-xs-6 col-sm-6 col-md-3">
                         <img src="./images/page-2/glass.png" alt="">
                         <h4>基本信息</h4>
                         <p>
                             姓名: 陈丽 女
-                            <br> 年龄: 23岁 籍贯：四川
+                            <br> 年龄: 24岁 籍贯：四川
                         </p>
                     </div>
                     <div class=" icon-infomation col-xs-6 col-sm-6 col-md-3">
@@ -109,10 +124,9 @@
                     </div>
                     <div class=" icon-infomation col-xs-6 col-sm-6 col-md-3">
                         <img src="./images/page-2/tel.png" alt="">
-                        <h4>联系方式</h4>
+                        <h4>邮箱</h4>
                         <p>
-                            邮箱 cheyli@sina.cn
-                            <br> 电话 13626765996
+                            cheyli@sina.cn
                         </p>
                     </div>
                 </div>
@@ -194,15 +208,17 @@
         </div>
         <div class="section item-4" id='item-4'>
             <div class="container">
-                <div class="section-heading ">
-                    <h class="section-title">个人经历</h>
-                    <div class="design-arrow"></div>
-                </div>
+                <span class='title hidden-xs  hidden-sm' style='display: inline-block'>个人经历</span>
                 <div class="row">
                     <div class="col-xs-4 col-md-4">
                         <div class="feature-item">
-                            <div class="wrap-feature-icon">
-                                <img src="images/page-4/page.jpg" alt="">
+                            <div class="feature">
+                                <div class="tu"></div>
+                                <div class="zi">
+                                    <p>2012.09</p>
+                                    <p>|</p>
+                                    <p>2016.07</p>
+                                </div>
                             </div>
                             <div class="title">西南科技大学</div>
                             <div class="text">
@@ -213,9 +229,12 @@
                     </div>
                     <div class="col-xs-4 col-md-4">
                         <div class="feature-item">
-                            <div class="wrap-feature-icon">
-                                <div class="wrap-feature-icon">
-                                    <img src="images/page-4/page.jpg" alt="">
+                            <div class="feature">
+                                <div class="tu"></div>
+                                <div class="zi">
+                                    <p>2015/03</p>
+                                    <p>|</p>
+                                    <p>2016/01</p>
                                 </div>
                             </div>
                             <div class="title">北京海客潜行信息技术有限公司</div>
@@ -227,9 +246,12 @@
                     </div>
                     <div class="col-xs-4 col-md-4">
                         <div class="feature-item">
-                            <div class="wrap-feature-icon">
-                                <div class="wrap-feature-icon">
-                                    <img src="images/page-4/page.jpg" alt="">
+                            <div class="feature">
+                                <div class="tu"></div>
+                                <div class="zi">
+                                    <p>2016/03</p>
+                                    <p>|</p>
+                                    <p>2017/06</p>
                                 </div>
                             </div>
                             <div class="title">北京伟博互联科技有限公司</div>
@@ -256,7 +278,8 @@
                                     <a href="http://www.gofobao.com" target="_blank">
                                         <div class="hover-text">
                                             <h4>广富宝</h4>
-                                            <p>技术:html+css+js+angular</p>
+                                            <p>技术</p>
+                                            <p>artTemplate+angular</p>
                                             <img src="img/search.png" alt="查看">
                                         </div>
                                     </a>
@@ -265,12 +288,58 @@
                             <div class="col-xs-4 col-md-3 col-lg-3">
                                 <div class="portfolio-item">
                                     <div class="hover-bg">
-                                        <img src="img/gfb01.jpg" alt="广富宝">
+                                        <img src="img/gfb02.jpg" alt="教研">
+                                    </div>
+                                    <a href="javascript:;" target="_blank">
+                                        <div class="hover-text">
+                                            <h4>i教研移动端</h4>
+                                            <p>技术</p>
+                                            <p>bootstrap+angular</p>
+                                            <img src="img/search.png" alt="查看">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xs-4 col-md-3 col-lg-3">
+                                <div class="portfolio-item">
+                                    <div class="hover-bg">
+                                        <img src="img/qx01.jpg" alt="生活">
+                                    </div>
+                                    <a href="javascript:;" target="_blank">
+                                        <div class="hover-text">
+                                            <h4>宝格移动端</h4>
+                                            <p>技术</p>
+                                            <p>html5+css3+jquery</p>
+                                            <img src="img/search.png" alt="查看">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xs-4 col-md-3 col-lg-3">
+                                <div class="portfolio-item">
+                                    <div class="hover-bg">
+                                        <img src="img/qy.jpg" alt="去潜">
+                                    </div>
+                                    <a href="javascript:;" target="_blank">
+                                        <div class="hover-text">
+                                            <h4>去潜移动端</h4>
+                                            <p>技术</p>
+                                            <p>html5+css3+jquery</p>
+                                            <img src="img/search.png" alt="查看">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xs-4 col-md-3 col-lg-3">
+                                <div class="portfolio-item">
+                                    <div class="hover-bg">
+                                        <img src="img/gfb01.jpg" alt="去潜">
                                     </div>
                                     <a href="http://www.godive.cn" target="_blank">
                                         <div class="hover-text">
                                             <h4>去潜(GoDive)</h4>
-                                            <p>技术:html+css+bootstrap</p>
+                                            <p>技术</p>
+                                            <p>html+css+bootstrap</p>
                                             <img src="img/search.png" alt="查看">
                                         </div>
                                     </a>
@@ -279,54 +348,13 @@
                             <div class="col-xs-4 col-md-3 col-lg-3">
                                 <div class="portfolio-item">
                                     <div class="hover-bg">
-                                        <img src="img/gfb02.jpg" alt="广富宝">
+                                        <img src="img/aij.jpg" alt="爱宝贝">
                                     </div>
-                                    <a href="http://www.gofobao.com" target="_blank">
+                                    <a href="javascript:;" target="_blank">
                                         <div class="hover-text">
-                                            <h4>广富宝</h4>
-                                            <p>技术：html+css+js+angular</p>
-                                            <img src="img/search.png" alt="查看">
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-xs-4 col-md-3 col-lg-3">
-                                <div class="portfolio-item">
-                                    <div class="hover-bg">
-                                        <img src="img/qx01.jpg" alt="广富宝">
-                                    </div>
-                                    <a href="http://www.gofobao.com" target="_blank">
-                                        <div class="hover-text">
-                                            <h4>广富宝</h4>
-                                            <p>技术：html+css+js+angular</p>
-                                            <img src="img/search.png" alt="查看">
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-xs-4 col-md-3 col-lg-3">
-                                <div class="portfolio-item">
-                                    <div class="hover-bg">
-                                        <img src="img/qy.jpg" alt="广富宝">
-                                    </div>
-                                    <a href="http://www.gofobao.com" target="_blank">
-                                        <div class="hover-text">
-                                            <h4>广富宝</h4>
-                                            <p>技术：html+css+js+angular</p>
-                                            <img src="img/search.png" alt="查看">
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-xs-4 col-md-3 col-lg-3">
-                                <div class="portfolio-item">
-                                    <div class="hover-bg">
-                                        <img src="img/aij.jpg" alt="广富宝">
-                                    </div>
-                                    <a href="http://www.gofobao.com" target="_blank">
-                                        <div class="hover-text">
-                                            <h4>广富宝</h4>
-                                            <p>技术：html+css+js+angular</p>
+                                            <h4>爱宝贝</h4>
+                                            <p>技术</p>
+                                            <p>html+css+js+angular</p>
                                             <img src="img/search.png" alt="查看">
                                         </div>
                                     </a>
@@ -337,10 +365,11 @@
                                     <div class="hover-bg">
                                         <img src="img/aij02.jpg" alt="广富宝">
                                     </div>
-                                    <a href="http://www.gofobao.com" target="_blank">
+                                    <a href="javascript:;" target="_blank">
                                         <div class="hover-text">
-                                            <h4>广富宝</h4>
-                                            <p>技术：html+css+js+angular</p>
+                                            <h4>广富宝移动端</h4>
+                                            <p>技术</p>
+                                            <p>html+vue+webpack</p>
                                             <img src="img/search.png" alt="查看">
                                         </div>
                                     </a>
@@ -349,12 +378,13 @@
                             <div class="col-xs-4 col-md-3 col-lg-3">
                                 <div class="portfolio-item">
                                     <div class="hover-bg">
-                                        <img src="img/qx02.jpg" alt="广富宝">
+                                        <img src="img/qx02.jpg" alt="去潜">
                                     </div>
-                                    <a href="http://www.gofobao.com" target="_blank">
+                                    <a href="javascript:;" target="_blank">
                                         <div class="hover-text">
-                                            <h4>广富宝</h4>
-                                            <p>技术：html+css+js+angular</p>
+                                            <h4>老师帮</h4>
+                                            <p>技术</p>
+                                            <p>html+css+js+angular</p>
                                             <img src="img/search.png" alt="查看">
                                         </div>
                                     </a>
@@ -370,7 +400,7 @@
                     <div id="rot1">
                         <img src="" width="800" height="300" class="bg" alt="" />
                         <div class="heading">
-                            <h1></h1>
+                            <h1>爱技术，爱生活</h1>
                         </div>
                         <div class="description">
                             <p></p>
@@ -378,49 +408,38 @@
                     </div>
                     <ul id="rotmenu">
                         <li>
-                            <a href="#">Flappy Bird</a>
+                            <a href="#">爱学习</a>
                             <div style="display:none;">
-                                <div class="info_image">jp.jpg</div>
-                                <div class="info_heading">Flappy Bird</div>
+                                <div class="info_image">a4.jpg</div>
+                                <div class="info_heading">Add to cart</div>
                                 <div class="info_description">
-                                    通过面向对象封装方法，利用canvas绘制。 手机可以玩。
-                                    <br><a href="http://chenjichuan.cn/bird.html" target=_blank class="more">play</a>
+                                    使用VueJS做的电商的添加到购物车模型
                                 </div>
                             </div>
                         </li>
                         <li>
-                            <a href="#">cart</a>
+                            <a href="#">爱技术</a>
                             <div style="display:none;">
-                                <div class="info_image">jp.jpg</div>
-                                <div class="info_image">Add to cart</div>
+                                <div class="info_image">a2.jpg</div>
+                                <div class="info_image">music list</div>
                                 <div class="info_description">
-                                    电商的添加到购物车模型，符合大部分电商场景
+                                    使用AngularJS做的音乐播放列表
                                 </div>
                             </div>
                         </li>
                         <li>
-                            <a href="#">Fall</a>
+                            <a href="#">爱前端</a>
                             <div style="display:none;">
-                                <div class="info_image">jp.jpg</div>
+                                <div class="info_image">a3.jpg</div>
                                 <div class="info_description">
                                     瀑布流布局，同时具备响应式，延迟加载等提高用户体验场景。
                                 </div>
                             </div>
                         </li>
                         <li>
-                            <a href="#">view</a>
+                            <a href="#">爱生活</a>
                             <div style="display:none;">
-                                <div class="info_image">jp.jpg</div>
-                                <div class="info_heading">view</div>
-                                <div class="info_description">
-                                    有趣儿的小东西，添加大图后可以实现全景浏览
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <a href="#">Full page</a>
-                            <div style="display:none;">
-                                <div class="info_image">jp.jpg</div>
+                                <div class="info_image">a1.jpg</div>
                                 <div class="info_description">
                                     主流的商家活动推广页面应用场景，全屏浏览同时，分页分屏展示。
                                 </div>
@@ -448,14 +467,16 @@
                     工作认真，积极主动，团队意识强；喜欢js</br>热爱编程，喜欢钻研心的技术，具有很强的自学能力和良好的学习方法
                 </p>
             </div>
-            <div class="tel-me">
-                <span>——联系我——</span>
-                <span>邮箱：cheyli@sina.com</span>
-                <span>tel: 13626765996</span>
-                <span>WeiXin: 441944332</span>
-            </div>
             <div class="top"></div>
             <div class="foot"></div>
+        </div>
+        <div class="section item-7">
+            <div class="flow">
+                <!-- UY BEGIN -->
+                <div id="uyan_frame" class="half"></div>
+                <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2138582"></script>
+                <!-- UY END -->
+            </div>
         </div>
     </div>
 </body>
@@ -468,3 +489,17 @@
 <script src="lib/bootstrap/js/bootstrap.js"></script>
 <script src="js/handler.js"></script>
 <script src="js/resumeEnter.js"></script>
+<script>
+(function() {
+    //百度自动链接推送
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    } else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>

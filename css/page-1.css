@@ -1,58 +1,80 @@
+.item-1 {
+    height: 100%;
+}
+
 .item-1 .word {
-    margin-top: -14%;
+    height: 100%;
 }
 
-.item-1 .word p {
-    font-size: 48px;
+.item-1 .word .text {
+    position: absolute;
+    bottom: 28%;
+    margin-left: 22%;
+}
+
+.word .text p {
+    font-size: 40px;
+    color: #292E31;
     font-family: cursive, 'Lato';
-    display: block;
     text-align: center;
-    height: 20px;
-    margin-bottom: 25px;
-}
-
-.item-1 .word p:nth-child(3) {
-    padding-top: 15px;
-}
-
-.word > span:nth-child(1) {
-    display: inline-block;
-    -webkit-animation: fadeInDownBig 3s ease;
-    animation: fadeInDownBig 3s ease;
-}
-
-.word > p:nth-child(2) {
-    -webkit-animation: fadeInDownBig 2s ease;
-    animation: fadeInDownBig 2s ease;
-}
-
-.word > p:nth-child(3) {
-    -webkit-animation: p-fly 2s ease;
-    animation: p-fly 2s ease;
 }
 
 .head {
-    top: 20%;
-    display: inline-block;
-    width: 169px;
-    height: 169px;
-    overflow: hidden;
     position: relative;
-    transition: all 1s linear forwards;
+    top: 12%;
+    left: 50%;
+    margin-left: -90px;
+    width: 180px;
+    height: 180px;
+}
+
+.word .tu {
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border-width: 10px;
+    border-style: solid;
+    border-bottom-color: #FCF;
+    border-right-color: #fcf;
+    border-top-color: #FFF;
+    border-left-color: #fff;
+    border-radius: 150%;
+    overflow: hidden;
+    transition: ease 0.5s;
+    z-index: 1;
 }
 
 .head #item-img {
     border-radius: 200px;
+    position: absolute;
+    margin-left: -80px;
+    top: 10px;
 }
 
-.head:hover {
-    transform: scale(1.2);
+.head:hover .tu {
+    transform: rotate(360deg);
+}
+
+.word > .head {
+    -webkit-animation: fadeInDownBig 3s ease;
+    animation: fadeInDownBig 3s ease;
+}
+
+.word .text > p:nth-child(1) {
+    margin-bottom: 10px;
+    -webkit-animation: fadeInDownBig 2s ease;
+    animation: fadeInDownBig 2s ease;
+}
+
+.word .text > p:nth-child(2) {
+    -webkit-animation: p-fly 2s ease;
+    animation: p-fly 2s ease;
 }
 
 .word .btnMe {
     position: absolute;
     left: 50%;
-    bottom: 8%;
+    bottom: 5%;
     width: 300px;
     margin-left: -150px;
     height: 102px;
