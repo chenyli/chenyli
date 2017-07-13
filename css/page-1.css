@@ -66,6 +66,7 @@
     margin-bottom: 10px;
     -webkit-animation: fadeInDownBig 2s ease;
     animation: fadeInDownBig 2s ease;
+    font-family: cursive, 'Lato';
 }
 
 .word .text > p:nth-child(2) {
