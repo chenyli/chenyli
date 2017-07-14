@@ -43,12 +43,12 @@ var project_info = function() {
 
         $('#rot1').prepend(
             $('<img/>', {
-                style: 'opacity:0',
+                style: 'opacity:0.5',
                 className: 'bg'
             }).load(
                 function() {
-                    $(this).animate({ 'opacity': '1' }, 600);
-                    $('#rot1 img:first').next().animate({ 'opacity': '0' }, 700, function() {
+                    $(this).animate({ 'opacity': '0.8' }, 600);
+                    $('#rot1 img:first').next().animate({ 'opacity': '1' }, 700, function() {
                         $(this).remove();
                     });
                 }
