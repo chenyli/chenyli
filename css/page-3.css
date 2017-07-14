@@ -136,6 +136,13 @@
     color: #42B8F1;
 }
 
+@media(max-width:768px) {
+    .item-3 .skill-introduce {
+        top: 10%;
+        left: 0%;
+    }
+}
+
 .item-3 .skill-introduce a {
     display: block;
     width: 40px;

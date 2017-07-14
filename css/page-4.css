@@ -2,10 +2,6 @@
     display: none;
 }
 
-.item-4 .row {
-    margin-top: 50px;
-}
-
 .item-4 .fp-tableCell {
     vertical-align: top;
     padding-top: 100px;
@@ -23,7 +19,7 @@
     -webkit-animation: flip 1s linear;
     animation: flip 1s linear;
     color: #000;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
 }
 
@@ -55,8 +51,8 @@
 }
 
 #item-4 .thumbnail .item .imag img {
-    width: 100%;
-    height: 100%;
+    width: 120px;
+    height: 120px;
 }
 
 #item-4 .thumbnail .item .imag p:nth-child(1) {
@@ -125,11 +121,9 @@
     }
     #item-4 .thumbnail .item {
         width: 120px;
-        height: 120px;
     }
-    #item-4 .thumbnail .item img {
+    #item-4 .thumbnail .item .imag img {
         width: 100px;
-        height: 100px;
     }
 }
 
@@ -148,15 +142,64 @@
         font-size: 12px;
     }
     #item-4 .thumbnail .item {
-        width: 100px;
-        height: 100px;
+        width: 104px;
     }
-    #item-4 .thumbnail .item img {
-        width: 80px;
-        height: 80px;
+    #item-4 .thumbnail .item .imag img {
+        width: 84px;
     }
     #item-4 .thumbnail .item .imag p:nth-child(1) {
-        margin-top: 5px;
+        margin-top: 18px;
+    }
+}
+
+.sky {
+    height: 480px;
+    background: #F0EDF2;
+    position: relative;
+    overflow: hidden;
+    -webkit-animation: sky_background 50s ease-out infinite;
+    -moz-animation: sky_background 50s ease-out infinite;
+    -o-animation: sky_background 50s ease-out infinite;
+    animation: sky_background 50s ease-out infinite;
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+@-webkit-keyframes sky_background {
+    0% {
+        background: #F0EDF2;
+    }
+    50% {
+        background: #CBC9CB;
+    }
+    100% {
+        background: #F0EDF2;
+    }
+}
+
+@-moz-keyframes sky_background {
+    0% {
+        background: #F0EDF2;
+    }
+    50% {
+        background: #CBC9CB;
+    }
+    100% {
+        background: #F0EDF2;
+    }
+}
+
+@keyframes sky_background {
+    0% {
+        background: #F0EDF2;
+    }
+    50% {
+        background: #CBC9CB;
+    }
+    100% {
+        background: #F0EDF2;
     }
 }
 

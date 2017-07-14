@@ -9,7 +9,7 @@
 .item-1 .word .text {
     width: 500px;
     position: absolute;
-    bottom: 28%;
+    bottom: 30%;
     left: 50%;
     margin-left: -250px;
 }
@@ -28,6 +28,8 @@
     margin-left: -90px;
     width: 180px;
     height: 180px;
+    opacity: 0.9;
+    animation: page1 5s linear infinite;
 }
 
 .word .head .tu {
@@ -46,29 +48,32 @@
     z-index: 1;
 }
 
+.word .head .tu {}
+
 .head #item-img {
     border-radius: 200px;
     position: absolute;
     margin-left: -80px;
     top: 10px;
+    /*animation: page1 5s linear infinite;*/
 }
 
 .head:hover .tu {
     transform: rotate(360deg);
 }
 
-.word > .head {
+.word .head {
     -webkit-animation: fadeInDownBig 3s ease;
     animation: fadeInDownBig 3s ease;
 }
 
-.word .text > p:nth-child(1) {
+.word .text p:nth-child(1) {
     margin-bottom: 10px;
     -webkit-animation: fadeInDownBig 2s ease;
     animation: fadeInDownBig 2s ease;
 }
 
-.word .text > p:nth-child(2) {
+.word .text p:nth-child(2) {
     -webkit-animation: p-fly 2s ease;
     animation: p-fly 2s ease;
 }
@@ -81,6 +86,8 @@
     margin-left: -150px;
     height: 102px;
     text-align: center;
+    -webkit-animation: p-fly 2s ease;
+    animation: p-fly 2s ease;
 }
 
 .word .abMe,

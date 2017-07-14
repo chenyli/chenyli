@@ -1,5 +1,5 @@
 /**
- * Created by Chris on 2017/5/5
+ * Created by Chris on 2016/4/4.
  */
 var project_info = function() {
 
@@ -18,8 +18,8 @@ var project_info = function() {
 
         $this.parent().find('li:nth-child(' + current + ') a')
             .stop()
-            .animate({ 'marginRight': '-20px' }, 100, function() {
-                $(this).animate({ 'opacity': '0.7' }, 100);
+            .animate({ 'marginRight': '-20px' }, 300, function() {
+                $(this).animate({ 'opacity': '0.7' }, 700);
             });
 
         //重置当前current
@@ -27,18 +27,18 @@ var project_info = function() {
 
         // 把a往外移动效果显示
         var elem = $('a', $this);
-        elem.stop().animate({ 'marginRight': '0px', 'opacity': '1.0' }, 100);
+        elem.stop().animate({ 'marginRight': '0px', 'opacity': '1.0' }, 300);
 
         // 信息展示
         var info_elem = elem.next();
-        $('#rot1 .heading').stop().animate({ 'left': '-420px' }, 100, 'easeOutCirc', function() {
+        $('#rot1 .heading').stop().animate({ 'left': '-420px' }, 500, 'easeOutCirc', function() {
             $('h1', $(this)).html(info_elem.find('.info_heading').html());
-            $(this).animate({ 'left': '0px' }, 100, 'easeInOutQuad');
+            $(this).animate({ 'left': '0px' }, 400, 'easeInOutQuad');
         });
 
-        $('#rot1 .description').stop().animate({ 'bottom': '-270px' }, 100, 'easeOutCirc', function() {
+        $('#rot1 .description').stop().animate({ 'bottom': '-270px' }, 500, 'easeOutCirc', function() {
             $('p', $(this)).html(info_elem.find('.info_description').html());
-            $(this).animate({ 'bottom': '0px' }, 100, 'easeInOutQuad');
+            $(this).animate({ 'bottom': '0px' }, 400, 'easeInOutQuad');
         })
 
         $('#rot1').prepend(
@@ -47,8 +47,8 @@ var project_info = function() {
                 className: 'bg'
             }).load(
                 function() {
-                    $(this).animate({ 'opacity': '1' }, 100);
-                    $('#rot1 img:first').next().animate({ 'opacity': '0' }, 100, function() {
+                    $(this).animate({ 'opacity': '1' }, 600);
+                    $('#rot1 img:first').next().animate({ 'opacity': '0' }, 700, function() {
                         $(this).remove();
                     });
                 }

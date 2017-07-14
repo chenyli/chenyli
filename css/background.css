@@ -12,6 +12,11 @@
     background-size: cover;
 }
 
+.item-4 {
+    background: rgba(255, 255, 255, .1);
+    !important;
+}
+
 .item-5 {
     background: url("../images/unuse.jpg") no-repeat center center;
     -webkit-background-size: cover;
